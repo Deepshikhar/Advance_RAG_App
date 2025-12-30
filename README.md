@@ -2,6 +2,9 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) application built with Streamlit, featuring multiple document processing options, chunking strategies, embedding methods, and RAG retrieval techniques.
 
+## 🚀 Try it Now!
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://advance-rag-app.streamlit.app/)
+
 ## 🎥 Demo
 
 <div align="center">
