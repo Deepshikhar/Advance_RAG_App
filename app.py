@@ -315,20 +315,18 @@ def main():
         selected_model = st.selectbox("Select LLM Model", llm_models)
         
         st.subheader("Document Processing")
-        adv_settings = st.checkbox('Advance Settings')
-        # Document processing parameters
-        if adv_settings:
-            chunk_size = st.slider("Chunk Size", 200, 2000, 1000, 100)
-            chunk_overlap = st.slider("Chunk Overlap", 0, 500, 200, 50)
-            
-            # Split method selection
-            split_method = st.radio(
-                "Select Split Method",
-                ["recursive", "character", "token", "spacy"],
-                help="Recursive: Best for general text, Character: By characters, Token: By tokens, Spacy: NLP-based"
-            )
-            # Top K for retrieval
-            top_k = st.slider("Number of chunks to retrieve (top_k)", 1, 10, 3)
+        
+        chunk_size = st.slider("Chunk Size", 200, 2000, 1000, 100)
+        chunk_overlap = st.slider("Chunk Overlap", 0, 500, 200, 50)
+        
+        # Split method selection
+        split_method = st.radio(
+            "Select Split Method",
+            ["recursive", "character", "token", "spacy"],
+            help="Recursive: Best for general text, Character: By characters, Token: By tokens, Spacy: NLP-based"
+        )
+        # Top K for retrieval
+        top_k = st.slider("Number of chunks to retrieve (top_k)", 1, 10, 3)
             
         
         # RAG type selection
