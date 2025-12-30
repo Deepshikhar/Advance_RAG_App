@@ -2,6 +2,18 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) application built with Streamlit, featuring multiple document processing options, chunking strategies, embedding methods, and RAG retrieval techniques.
 
+## 🎥 Demo
+
+<div align="center">
+  
+### 📽️ Watch the Full Demo
+  
+[![RAG Application Demo](https://img.shields.io/badge/▶️_Watch_Full_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1IedTiKoRu7QMzlh5JsqcpZuMfOR7zdoe/view?usp=sharing)
+
+*Click the button above to watch the demo video on Google Drive*
+
+</div>
+
 ## ✨ Features
 
 ### 📁 **Document Processing**
